@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>Temperature</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+    <h2>Temperatures in many places of Japan</h2>
+
+        <p>start
+        <input type=date id=start value="2018-03-01" min="1945-12-01" max ="2018-12-01" >
+        </p>
+        <p>end
+        <input type=date id=end value="2017-03-01" min="1945-12-01" max ="2018-12-01">
+        </p>
+
+        
+        <p>place1　 
+        <select id=place>
+            <option value="Naha">Naha</option>
+            <option value="Kagoshima">Kagoshima</option>
+            <option value="Hukuoka">Hukuoka</option>
+            <option value="Hiroshima">Hiroshima</option>
+            <option value="Osaka">Osaka</option>
+            <option value="Nagoya" selected>Nagoya</option>
+            <option value="Akita">Akita</option>
+            <option value="Morioka">Morioka</option>
+            <option value="Sapporo">Sapporo</option> 
+            </select>
+                　　　place2
+        <select id=place2>
+            <option value="Naha" selected>Naha</option>
+            <option value="Kagoshima">Kagoshima</option>
+            <option value="Hukuoka">Hukuoka</option>
+            <option value="Hiroshima">Hiroshima</option>
+            <option value="Osaka">Osaka</option>
+            <option value="Nagoya">Nagoya</option>
+            <option value="Akita">Akita</option>
+            <option value="Morioka">Morioka</option>
+            <option value="Sapporo">Sapporo</option> 
+            </select>
+                　　　place3
+        <select id=place3>
+            <option value="Naha">Naha</option>
+            <option value="Kagoshima">Kagoshima</option>
+            <option value="Hukuoka">Hukuoka</option>
+            <option value="Hiroshima">Hiroshima</option>
+            <option value="Osaka">Osaka</option>
+            <option value="Nagoya">Nagoya</option>
+            <option value="Akita">Akita</option>
+            <option value="Morioka">Morioka</option>
+            <option value="Sapporo" selected>Sapporo</option> 
+            </select>
+           
+        
+        
+        <!-- The event handler is defined in the calculator.js. -->
+                                      <input type=button id=plot value="Plot"> </p>
+ 
+    <img id=plotimg></img>
+            <p>下のグラフの縦軸の大きさを変えよう
+        <input type=number id=aval value=15 min=1 max =18>
+        </p>
+   </div>
+</body>
+<script type="text/javascript" src="/static/plotbtc.js"> </script>
+
+</html>
