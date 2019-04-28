@@ -1,3 +1,12 @@
+With this site you can take a look at how the temperature in the cities of Japan changes every month. 
+Did you know that Okinawa and Tokyo don't have much a temperature difference in the summer but they have a large difference in the winter? I didn't until I made this site.
+
+This is my first time using JavaScript. 
+I have no idea how js works. i just copied the basic code my teacher gave us and I improved it as my own.
+
+
+
+
 プログラムの内容 / 工夫したところ / 苦労
 した点 / やりたりなかったこと/コメント
 
